@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>ArtsKee - Termékek</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="KEARTFEHER.png" alt="ArtsKee Logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">KEZDŐLAP</a></li>
+                        <li><a href="Course.html">TERMÉKEK</a></li>
+                        <li><a href="Blog.html">VÁSÁRLÁS</a></li>
+                        <li><a href="Munkaim.html">GALÉRIA</a></li>
+                        <li><a href="About.html">RÓLAM</a></li>
+                        <li><a href="Contact.html">KAPCSOLAT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Termékek</h1>
+        </section>
+        
+        <!------------------ Munkáim ------------------>
+        
+        <section class="course">
+            <h1>Bövebben a Termékekről</h1>
+                <p>Egyéb, vagy egyedi referencia esetén vegye fel velem a kapcsolatot.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Logó</h3>
+                    <p>A logó egy cég, szervezet, áru vagy szolgáltatás azonosítására szolgáló egyedi, jól felismerhető jel.A logó elsődleges célja a megkülönböztetés, az egyértelmű jelölés megkönnyíti a tájékozódást a piac szereplői között. Bár csupán a márkaelemek egyike, a logót gyakran - pontatlanul - a márka szinonimájának tekintik.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Twitch Emote</h3>
+                    <p>Egy hangulatot ábrázoló kép, amely különösen a Twitch streaming videocsatornán van jelen. </p>
+                </div>
+                <div class="course-col">
+                    <h3>Digital Art</h3>
+                    <p>A Digitális művészetnek rengeteg formája van, széleskörű skálán mozog. Többek között Digitális fotózás, Montázs, Kollázs, Fotómanipuláció, Digitális festészet, Vektor grafika, Fraktálok, 3D grafika, Animáció.</p>
+                </div>
+                
+            </div>
+            <selection class="course">
+                <div class="row">
+                <div class="course-col">
+                    <h3>Videószerkesztés és Vágás</h3>
+                    <p>A vágás a filmkészítés azon folyamata, ami – a rendezéssel szoros összefüggésben meghatározza egy film szerkezetét, felépítését, ritmusát az utómunka során a kép és a hang összeillesztésével vagy széttördelésével. </p>
+                    </div>
+                    
+                    <div class="course-col">
+                    <h3>Névjegykártya</h3>
+                    <p>A névjegykártya személyes vagy üzleti kapcsolati információs kártyácska, mely a készítő adatait / elérhetőségeit tartalmazza. Lényeges arculati elem, amely hatékonyabbá és kényelmesebbé teszi a személy bemutatkozását is.</p>
+                </div>
+                    <div class="course-col">
+                    <h3>Plakát és Szórólap</h3>
+                    <p>Nagy méretű hirdetés, falragasz, amelyet nyilvános helyre tesznek ki reklámként. Függőleges felületre, hirdetőoszlopra kifüggesztett, kiragasztott, szöveges közleményt és sokszor képet is tartalmazó nyomtatvány.</p>
+                </div>
+                </div>
+            </selection>
+            
+        </section>
+        
+                <!------------------ Képek ------------------>
+        
+        <div class="konténer">
+
+<div class="swiper">
+    <h1>Kedvencek</h1>
+
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="1111.png"></div>
+    <div class="swiper-slide"><img src="222.png"></div>
+  </div>
+
+  <div class="swiper-pagination"></div>
+    
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+    
+</div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 4000,
+            },
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+      clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+        
+    </script>
+        
+        <!------------------ Facilities ------------------>
+        <!---
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="yisjo.png">
+                <h3>Wold Class Library</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industryLorem Ipsum i</p>
+            </div>
+            <div class="facilities-col">
+                <img src="yisjo.png">
+                <h3>Largest Playgorund</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industryLorem Ipsum i</p>
+            </div>
+            <div class="facilities-col">
+                <img src="yisjo.png">
+                <h3>Tasty and Healty Food</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industryLorem Ipsum i</p>
+            </div>
+        </div>
+        </section>
+        
+        <!------------------ Footer ------------------>
+        
+        <section class="footer">
+            <h4>ArtsKee</h4>
+            <p>Minden jog fenntartva.<br>A képek nem felhasználhatóak sajtá célra.</p>
+            <div class="icons">
+                <i class="fa fa-envelope-o" alt="E-mail"></i>
+                <a href="https://discord.gg/dzAHshu9"><i class="fa fa-phone-square" alt="Discord"></i></a>
+                <a href="https://www.instagram.com/erakoncz/"><i class="fa fa-instagram" alt="Instagram"></i></a>
+                <a href="https://www.tiktok.com/@erakoncz"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.twitch.tv/erakoncz"><i class="fa fa-twitch" aria-hidden="true" alt="Twitch"></i></a>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Koncz Erika</p>
+        </section>
+        
+<!------------------JavaScript bekapcsolási menü------------------>
+            <script>
+                var navLinks = document.getElementById("navLinks");
+                
+                function showMenu(){
+                    navLinks.style.right = "0";
+                }
+                
+                function hideMenu(){
+                    navLinks.style.right = "-200px";
+                }
+        </script>
+<!------------------JavaScript bekapcsolási menü------------------>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
